@@ -5,6 +5,7 @@ export default defineUserConfig({
   title: 'web前端面试 - 面试官系列',
   description:
     'web前端面试,vue面试题,react面试题,js面试题,大厂面试题,阿里面试题,京东面试题',
+  base: '/interview/',
   theme: defaultTheme({
     sidebar: [
       {
