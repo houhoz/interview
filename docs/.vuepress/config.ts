@@ -8,6 +8,8 @@ export default defineUserConfig({
   head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
   base: process.env.NODE_ENV === 'development' ? '/' : '/interview/',
   theme: defaultTheme({
+    lastUpdated: false,
+    contributors: false,
     logo: '/images/logo.png',
     sidebar: [
       {
