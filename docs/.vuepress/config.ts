@@ -13,16 +13,16 @@ export default defineUserConfig({
     logo: '/images/logo.png',
     sidebar: [
       {
-        text: '简介',
+        text: '概总',
         link: '/README.md',
       },
       {
-        text: 'Css  ( 已完结..)',
+        text: 'Css  ( 未完结..)',
         collapsible: true,
         children: ['/css/README.md'],
       },
       {
-        text: 'Javascript  ( 已完结..)',
+        text: 'Javascript  ( 未完结..)',
         collapsible: true,
         children: [
           '/javascript/README.md',
@@ -31,11 +31,11 @@ export default defineUserConfig({
         ],
       },
       {
-        text: 'React、Vue  ( 已完结..)',
+        text: 'React、Vue  ( 未完结..)',
         collapsible: true,
         children: [
           '/react/README.md',
-          '/react/hooks.md',
+          '/react/hook.md',
           '/react/setState.md',
           '/react/events.md',
           '/react/useState.md',
@@ -44,12 +44,12 @@ export default defineUserConfig({
         ],
       },
       {
-        text: 'Http ( 已完结..)',
+        text: 'Http ( 未完结..)',
         collapsible: true,
         children: ['/http/README.md'],
       },
       {
-        text: 'Webpack系列  ( 已完结..)',
+        text: 'Webpack系列  ( 未完结..)',
         collapsible: true,
         children: ['/webpack/README.md'],
       },
