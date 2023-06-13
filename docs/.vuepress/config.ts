@@ -41,6 +41,7 @@ export default defineUserConfig({
           '/react/useState.md',
           '/react/redux.md',
           '/react/fiber.md',
+          '/react/optimize.md',
         ],
       },
       {

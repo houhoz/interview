@@ -7,6 +7,22 @@
 - 两个 div，都给 margin：20px，这两个 div 的间距是多少？为什么会产生这种问题？怎么解决？（BFC）
 - 怎么触发 BFC，说出你能想到的所有方案
 
+## JavaScript
+
+- ES6 的迭代器是怎么实现的
+- js 怎么去实现继承？（我先说了寄生组合继承，然后他问我组合继承解决了原型链继承的哪些问题？）
+- Javascript 的数据类型（8 种）
+- JSBridge 的原理
+- 你能说一下 for of 和 for in 的区别吗？
+- for of 你提到 Symbol.iterator，那么你能不能说一下你对 iterator 的理解？（迭代器模式在 js 里面的实现）
+- iterator 和 generator 的关系是什么？你说 iterator 能自动执行，那么是怎么实现自动执行的？
+
+## TypeScript
+
+- 为什么要用 ts，接口是什么，泛型是什么
+- typescript 的联合类型和交叉类型是什么？
+- typescript 的 Interface 和 type 有什么区别？
+
 ## React
 
 - [react18 的新特性](./react/README.md)
@@ -59,12 +75,6 @@
 - AST 是什么，有没有了解过 AST
 - 简述一下 babel 和 ast？可以用 ast 做一些什么事？
 
-## TypeScript
-
-- 为什么要用 ts，接口是什么，泛型是什么
-- typescript 的联合类型和交叉类型是什么？
-- typescript 的 Interface 和 type 有什么区别？
-
 ## 浏览器
 
 - 路由有哪几种，是怎么实现的（3 种）
@@ -73,16 +83,6 @@
 - 什么是重绘和重排
 - 服务端渲染的方案有哪些？next.js 和 nuxt.js 的区别
 - cdn 的原理
-
-## JavaScript
-
-- ES6 的迭代器是怎么实现的
-- 怎么实现继承
-- Javascript 的数据类型（8 种）
-- JSBridge 的原理
-- 你能说一下 for of 和 for in 的区别吗？
-- for of 你提到 Symbol.iterator，那么你能不能说一下你对 iterator 的理解？（迭代器模式在 js 里面的实现）
-- iterator 和 generator 的关系是什么？你说 iterator 能自动执行，那么是怎么实现自动执行的？
 
 ## 手写代码
 
@@ -101,3 +101,4 @@
 ## 其他
 
 - 讲一下你知道的网络安全问题吧，例如你介绍一下 XSS 和 CSRF？分别怎么防御？
+- 原生微信小程序的优势？与 Taro 相比

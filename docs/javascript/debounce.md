@@ -4,18 +4,22 @@ description: 防抖与节流是什么，解决什么问题
 ---
 
 ## 防抖
+
 在第一次触发事件时，不立即执行函数，若计时器的时间间隔之内没有再次触发事件就执行；在计时器时间间隔内又触发新的事件，会清除计时器，重新计时。
 
-在事件被触发n秒后再执行回调，如果在这n秒内又被触发，则重新计时。
+在事件被触发 n 秒后再执行回调，如果在这 n 秒内又被触发，则重新计时。
 
 ```js
-function debounce(fn, delay) {
+const debounce = (fn, delay) => {
   let timer = null
   return () => {
     if (timer) {
       clearTimeout(timer)
     }
-    timer = setTimeout(fn, delay)
+    timer = setTimeout(() => {
+      fn()
+      timer = null
+    }, delay)
   }
 }
 
@@ -57,9 +61,9 @@ window.onscroll = throttle(log, 500)
 
 搜索框存在搜索提示的时候 就需要使用节流，用户可以一边输入一边看到搜索提示
 
-## 实现一个useDebounce、useThrottle
+## 实现一个 useDebounce、useThrottle
 
 1. 什么是防抖、节流，分别解释一下？
-2. 在白纸上手写一个防抖or节流函数，自己任选（限时4分钟）
-3. react hooks有了解吗？上机实现一个useDebounce、useThrottle
-4. typescript有了解吗？用ts再来写一遍
+2. 在白纸上手写一个防抖 or 节流函数，自己任选（限时 4 分钟）
+3. react hooks 有了解吗？上机实现一个 useDebounce、useThrottle
+4. typescript 有了解吗？用 ts 再来写一遍
