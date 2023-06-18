@@ -58,7 +58,7 @@
 
 ### Redux
 
-- Redux 的原理
+- [Redux 的原理](./react/redux.md)
 - Redux 和 dva 的区别
 - 说说你对 Redux 的理解？其工作原理？
 

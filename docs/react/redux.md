@@ -3,16 +3,24 @@ title: Redux
 description: 说说你对Redux的理解？其工作原理？
 ---
 
+## 单向数据流
+
+- 用户在 view 层触发某个事件，通过 dispatch 发送了 action 和 payload
+- action 和 payload 被传入 reducer 函数，返回一个新的 state
+- store 拿到 reducer 返回的 state 并做更新，同时通知 view 层进行 re-render
+
 `redux`就是一个状态集中管理的容器，遵循三大基本原则：
 
 - 单一数据源
 - state 是只读的
 - 使用纯函数来执行修改
 
+## Redux 和 dva 的区别
+
 1. createStore 可以帮助创建 store
 2. store.dispatch 帮助派发 action , action 会传递给 store
 3. store.getState 这个方法可以帮助获取 store 里边所有的数据内容
-4. store.subscrible 方法订阅 store 的改变，只要 store 发生改变， store.subscrible 这个函数接收的这个回调函数就会被执行
+4. store.subscribe 方法订阅 store 的改变，只要 store 发生改变， store.subscribe 这个函数接收的这个回调函数就会被执行
 
 Redux 是一个用于管理应用程序状态的 JavaScript 库。它提供了一种可预测的状态管理解决方案，使得应用程序的状态管理变得简单、一致和可维护。
 
