@@ -17,12 +17,11 @@ export default defineUserConfig({
         link: '/README.md',
       },
       {
-        text: 'Css  ( 未完结..)',
-        collapsible: true,
-        children: ['/css/README.md'],
+        text: 'Css',
+        link: '/css/README.md',
       },
       {
-        text: 'Javascript  ( 未完结..)',
+        text: 'Javascript',
         collapsible: true,
         children: [
           '/javascript/README.md',
@@ -31,7 +30,7 @@ export default defineUserConfig({
         ],
       },
       {
-        text: 'React、Vue  ( 未完结..)',
+        text: 'React、Vue',
         collapsible: true,
         children: [
           '/react/README.md',
@@ -47,14 +46,12 @@ export default defineUserConfig({
         ],
       },
       {
-        text: 'Http ( 未完结..)',
-        collapsible: true,
-        children: ['/http/README.md'],
+        text: 'Http',
+        link: '/http/README.md',
       },
       {
-        text: 'Webpack系列  ( 未完结..)',
-        collapsible: true,
-        children: ['/webpack/README.md'],
+        text: 'Webpack',
+        link: '/webpack/README.md',
       },
     ],
   }),
