@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-551f10b4","path":"/react/useState.html","title":"useSate","lang":"zh-CN","frontmatter":{"title":"useSate","description":"为什么useState要使用数组而不是对象?"},"headers":[],"git":{},"filePathRelative":"react/useState.md"}');export{t as data};

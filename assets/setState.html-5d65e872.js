@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-4619d8c1","path":"/react/setState.html","title":"setState","lang":"zh-CN","frontmatter":{"title":"setState","description":"setState是同步还是异步"},"headers":[],"git":{},"filePathRelative":"react/setState.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-c21d5612","path":"/react/events.html","title":"合成事件","lang":"zh-CN","frontmatter":{"title":"合成事件","description":"React的合成事件"},"headers":[],"git":{},"filePathRelative":"react/events.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-e02a086e","path":"/javascript/","title":"事件循环机制","lang":"zh-CN","frontmatter":{"title":"事件循环机制","description":"Event Loop事件循环机制"},"headers":[],"git":{},"filePathRelative":"javascript/README.md"}');export{t as data};
