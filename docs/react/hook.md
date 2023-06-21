@@ -62,3 +62,10 @@ React Hooks 的存在意义是为了提供一种更简洁、灵活和可维护�
 4. 更好的开发体验：Hooks 可以减少代码的冗余，使得组件的逻辑更加集中和清晰，提高了开发效率和代码质量。
 
 总的来说，React Hooks 提供了一种更现代、简洁和灵活的方式来编写 React 组件。它使得组件的状态管理和副作用处理更加直观和可控，同时提供了更好的性能和开发体验。
+
+## useLayoutEffect 和 useEffect 的区别
+
+useEffect() 的作用就是指定一个副作用函数，组件每渲染一次，该函数就自动执行一次。 组件首次在网页 DOM 加载后，副效应函数也会执行。
+
+- useEffect 是异步执行的，而 useLayoutEffect 是同步执行的。
+- useEffect 的执行时机是浏览器完成渲染之后，而 useLayoutEffect 的执行时机是浏览器把内容真正渲染到界面之前，和 componentDidMount 等价。

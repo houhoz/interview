@@ -27,6 +27,7 @@ export default defineUserConfig({
           '/javascript/README.md',
           '/javascript/debounce.md',
           '/javascript/closure.md',
+          '/javascript/algorithm.md',
         ],
       },
       {
